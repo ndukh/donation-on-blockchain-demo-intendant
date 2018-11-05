@@ -1,0 +1,9 @@
+applications:
+- name: Intendant
+  no-route: true
+  instances: 1
+  memory: 64M
+  health-check-type: none
+  command: python intendant.py
+  disk quota: 128M
+  path: .
