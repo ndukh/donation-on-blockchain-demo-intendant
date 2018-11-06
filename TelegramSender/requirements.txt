@@ -1,4 +1,0 @@
-httplib2
-base58
-python-telegram-bot
-configparser
