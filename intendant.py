@@ -5,8 +5,7 @@ import random
 import time
 from threading import Thread
 
-from Intendant.static import MyLogger
-from Intendant.static import get
+from static import MyLogger, get
 
 config = configparser.ConfigParser()
 config.read('config.ini', 'utf-8')
